@@ -1,4 +1,4 @@
-```markdown
+
 # Practical Database Design for an E-Commerce Site
 
 Let's assume we are building a basic e-commerce platform and want to design a database that includes a catalog of products, their details, and the categories to which they belong. We also want to design tables for users, orders, and other essential components.
@@ -16,7 +16,7 @@ CREATE TABLE users (
     password VARCHAR(100) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-```
+
 
 ### 2. **Categories Table**
 Contains information about product categories.
