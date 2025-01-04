@@ -16,7 +16,7 @@ CREATE TABLE users (
     password VARCHAR(100) NOT NULL,
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
+```
 
 ### 2. **Categories Table**
 Contains information about product categories.
